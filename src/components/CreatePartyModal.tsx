@@ -14,8 +14,6 @@ const RoomModal: React.FC<CreatePartyModal> = ({ isVisible, setIsVisible }) => {
       onCancel={() => setIsVisible(false)}
       style={{ textAlign: 'center' }}
     >
-
-      {/* <Statistic title="Your party code is:" value={'A23J8A7S'} /> */}
       <Title level={3}>Your party code is:</Title>
       <Title copyable>A23J8A7S</Title>
     </Modal>
