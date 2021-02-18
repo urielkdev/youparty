@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
   return (
     <Header className="nav-bar">
       <Menu mode="horizontal">
-        <Menu.Item>YouParty</Menu.Item>
+        <Menu.Item>YouParty </Menu.Item>
         <Menu.Item key="2" onClick={handleJoinParty} className="float-right">
           Join
         </Menu.Item>
